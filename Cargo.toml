@@ -1,0 +1,11 @@
+[package]
+name = "htsget"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crypt4gh = "0.4.1"
+noodles-htsget = "0.1.0"
+tokio = { version = "1.28", features = ["full"] }
+futures = "0.3"
+reqwest = "0.11"
