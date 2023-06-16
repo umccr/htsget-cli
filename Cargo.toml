@@ -9,3 +9,4 @@ noodles =  { version = "0.41", features = ["async", "core", "bam", "htsget"]}
 tokio = { version = "1.28", features = ["full"] }
 futures = "0.3"
 reqwest = "0.11"
+bincode = "1.3"
