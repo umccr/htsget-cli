@@ -17,7 +17,6 @@ use crypt4gh::header::{deconstruct_header_info, DecryptedHeaderPackets, HeaderIn
 use crypt4gh::header::deconstruct_header_body;
 use crypt4gh::{Keys, keys};
 
-
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn Error>> {
     let base_url = "http://localhost:8080/".parse()?;

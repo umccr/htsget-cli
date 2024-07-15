@@ -5,8 +5,9 @@ edition = "2021"
 
 [dependencies]
 crypt4gh = "0.4.1"
-noodles =  { version = "0.41", features = ["async", "core", "bam", "htsget"]}
+#crypt4gh = { version = "0.4.1", git = "https://github.com/EGA-archive/crypt4gh-rust/" }
+noodles =  { version = "0.78", features = ["async", "core", "bam", "htsget"]}
 tokio = { version = "1.28", features = ["full"] }
 futures = "0.3"
-reqwest = "0.11"
+reqwest = "0.12"
 bincode = "1.3"
